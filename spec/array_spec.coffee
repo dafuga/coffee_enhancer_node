@@ -1,4 +1,3 @@
-
 describe 'Array', () ->
   filled_array = [1,2,3,4]
   empty_array = []
