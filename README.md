@@ -5,19 +5,10 @@ A gem to make coffeescript even more fun to use.
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
-```ruby
-gem 'coffee_enhancer'
+```Node
+npm install 'coffee_enhancer_node'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install coffee_enhancer
 
 ## Usage
 
@@ -31,7 +22,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/coffee_enhancer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/dafuga/coffee_enhancer_node. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

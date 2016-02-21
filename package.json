@@ -1,0 +1,25 @@
+{
+  "name": "coffee_enhancer_node",
+  "version": "1.0.1",
+  "description": "A library to make coffeescript even more awesome",
+  "main": "index.js",
+  "scripts": {
+    "test": "rake jasmine:ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafuga/coffee_enhancer_node.git"
+  },
+  "keywords": [
+    "coffeescript"
+  ],
+  "author": "Daniel Fugere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dafuga/coffee_enhancer_node/issues"
+  },
+  "homepage": "https://github.com/dafuga/coffee_enhancer_node#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
