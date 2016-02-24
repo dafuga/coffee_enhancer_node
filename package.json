@@ -1,6 +1,6 @@
 {
   "name": "coffee_enhancer_node",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A library to make coffeescript even more awesome",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/dafuga/coffee_enhancer_node/issues"
   },
-  "homepage": "https://github.com/dafuga/coffee_enhancer_node#readme",
-  "dependencies": {
-    "coffee-script": "^1.10.0"
-  }
+  "homepage": "https://github.com/dafuga/coffee_enhancer_node#readme"
 }

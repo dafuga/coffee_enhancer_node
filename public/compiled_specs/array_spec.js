@@ -7,9 +7,13 @@
       expect(filled_array.empty()).toBe(false);
       return expect(empty_array.empty()).toBe(true);
     });
-    return it('should respond correctly to present', function() {
+    it('should respond correctly to present', function() {
       expect(filled_array.present()).toBe(true);
       return expect(empty_array.present()).toBe(false);
+    });
+    return it('should respond correctly to any', function() {
+      expect(filled_array.any()).toBe(true);
+      return expect(empty_array.any()).toBe(false);
     });
   });
 

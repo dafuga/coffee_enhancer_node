@@ -9,8 +9,8 @@ guard 'coffeescript', coffeescript_options do
 end
 
 coffeescript_options = {
-  input: 'lib/javascripts',
-  output: 'public/compiled_src',
+  input: 'lib',
+  output: 'node_modules',
   patterns: [%r{^lib/(.+\.(?:coffee|coffee\.md|litcoffee))$}]
 }
 

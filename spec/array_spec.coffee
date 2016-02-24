@@ -9,3 +9,7 @@ describe 'Array', () ->
   it 'should respond correctly to present', () ->
     expect(filled_array.present()).toBe true
     expect(empty_array.present()).toBe false
+
+  it 'should respond correctly to any', () ->
+    expect(filled_array.any()).toBe true
+    expect(empty_array.any()).toBe false

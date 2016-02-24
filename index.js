@@ -1,5 +1,10 @@
-require("lib/array.coffee");
-require("lib/string.coffee");
-require("lib/number.coffee");
-require("lib/helpers.coffee");
-require("lib/datetime.coffee");
+
+"use strict";
+
+(function() {
+  module.exports = require("array");
+	module.exports = require("string");
+	module.exports = require("number");
+	module.exports = require("helpers");
+	module.exports = require("datetime");
+}).call(this);

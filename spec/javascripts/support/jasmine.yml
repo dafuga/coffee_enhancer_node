@@ -50,7 +50,7 @@ helpers:
 # src_dir: public
 #
 src_dir:
-  - 'public/compiled_src'
+  - 'node_modules'
 
 src_files:
   - '*.js'
