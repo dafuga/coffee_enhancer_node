@@ -1,32 +1,117 @@
 # CoffeeEnhancer
 
-A gem to make coffeescript even more fun to use.
+A client side to make using Js and Coffee-script more fun to use.
 
 
 ## Installation
 
+**Setup in Node:**
 
 ```Node
 npm install 'coffee_enhancer_node'
-
-To setup in your browser:
-
-	http://browserify.org/
-
 ```
 
-```Meteor
+Then follow this tutorial to render the library available in your browser:
+
+	**http://browserify.org/**
+
+
+**Setup in Meteor:**
+
+```Node
 npm install 'coffee_enhancer_node'
-
-To setup in your browser,
-follow this tutorial:
-	
-	https://react-in-meteor.readthedocs.org/en/latest/client-npm/
 ```
+The setup is not as straightforward, so follow this tutorial to broswerify your library:
+	
+	**https://react-in-meteor.readthedocs.org/en/latest/client-npm/**
 
-## Usage
 
-TODO: Write usage instructions here
+## Documentation
+
+**Adds the following methods for coffee/js :**
+
+```coffescript
+
+# Checks if array or string element is present
+Array::present()
+
+# Checks if array element is empty
+Array::empty()
+
+# Checks if array element is empty
+Array::any()
+
+# Formats time to 12 hour clock time
+Date::formatted_time_with_pm()
+
+# Formats time to 24 hour clock time
+Date::formatted_time()
+
+# Formats date
+Date::formatted_date()
+
+# Gives an english string describing the time since datetime stamp
+Date::time_ago_in_words()
+
+# Method that checks if a certain variable is undefined or null
+non_existent(variable)
+
+# Method that checks if a certain variable is defined and not null
+exists(variable)
+
+# Method that checks if a certain variable is defined
+defined(variable)
+
+# Method that checks if a certain variable is undefined
+not_defined(variable)
+
+# Method that checks if a certain variable is loaded (used in ReactJs mostly)
+loaded(variable)
+
+# Checks if number is positive or equal to zero
+Number::is_positive()
+
+# Checks if number is equal to zero
+Number::is_zero()
+
+# Checks if number is smaller or equal to zero
+Number::is_negative()
+
+# Converts to currency
+Number::to_currency()
+
+# Converts to string
+Number::to_s()
+
+# Converts to integer
+Number::to_i()
+
+# Checks if string element is blank
+String::blank()
+
+# Checks if string element is empty
+String::empty()
+
+# Checks if string element is present
+String::present()
+
+# Converts string to integer
+String::to_i()
+  parseInt(@)
+
+# Converts string to float
+String::to_f()
+
+# Converts the first character of string to uppercase and the rest to downcase
+String::capitalize()
+
+# Removes whitespaces before and after the content of the string
+String::trim()
+
+# Converts the first character of each word to uppercase and the rest to downcase
+String::titleize()
+
+```
 
 ## Development
 

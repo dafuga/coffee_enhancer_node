@@ -18,7 +18,7 @@ String::to_f = ->
 
 ## Converts the first character of string to uppercase
 String::capitalize = ->
-  "#{@.charAt(0).toUpperCase()}#{@.substr(1)}"
+  "#{@.charAt(0).toUpperCase()}#{@.substr(1).toLowerCase()}"
 
 String::trim = ->
 	@.replace /^\s+|\s+$/g, ''
