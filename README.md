@@ -11,19 +11,14 @@ A client side to make using Js and Coffee-script more fun to use.
 npm install 'coffee_enhancer_node'
 ```
 
-Then follow this tutorial to render the library available in your browser:
-
-	**http://browserify.org/**
-
+Then follow [this tutorial](http://browserify.org/) to render the library available in your browser:
 
 **Setup in Meteor:**
 
 ```Node
 npm install 'coffee_enhancer_node'
 ```
-The setup is not as straightforward, so follow this tutorial to broswerify your library:
-	
-	**https://react-in-meteor.readthedocs.org/en/latest/client-npm/**
+The setup is not as straightforward, so follow [this tutorial](https://react-in-meteor.readthedocs.org/en/latest/client-npm/) to broswerify your library.
 
 
 ## Documentation
