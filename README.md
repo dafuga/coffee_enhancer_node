@@ -1,6 +1,6 @@
 # CoffeeEnhancer
 
-A client side to make using Js and Coffee-script more fun to use.
+A client side to make using Js and Coffeescript more fun to use.
 
 
 ## Installation
